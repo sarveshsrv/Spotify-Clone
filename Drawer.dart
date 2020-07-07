@@ -4,7 +4,6 @@ void main() => runApp(new MyApp());
 Map<int, Color> color = {
   50: Color.fromRGBO(255, 92, 87, .1),
   100: Color.fromRGBO(255, 92, 87, .2),
-  200: Color.fromRGBO(255, 92, 87, .3),
   300: Color.fromRGBO(255, 92, 87, .4),
   400: Color.fromRGBO(255, 92, 87, .5),
   500: Color.fromRGBO(255, 92, 87, .6),
