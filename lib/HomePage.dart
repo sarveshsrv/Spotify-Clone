@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                     Image(
                       height: 130,
                       width: 150,
-                      image: AssetImage("images/TopHits.jpg"),
+                      image: AssetImage("images/top50Hindi.jpg"),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(6.0),
@@ -80,26 +80,7 @@ class _HomePageState extends State<HomePage> {
                     Image(
                       height: 130,
                       width: 150,
-                      image: AssetImage("images/TopHits.jpg"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Top Hits Hindi",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/TopHits.jpg"),
+                      image: AssetImage("images/hhits.jpg"),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(6.0),
@@ -118,31 +99,12 @@ class _HomePageState extends State<HomePage> {
                     Image(
                       height: 130,
                       width: 150,
-                      image: AssetImage("images/TopHits.jpg"),
+                      image: AssetImage("images/rj.jpg"),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(6.0),
                       child: Text(
-                        "Top Hits Tamil",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/TopHits.jpg"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Top Hits",
+                        "Top Hits Rajasthan",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -194,126 +156,12 @@ class _HomePageState extends State<HomePage> {
                     Image(
                       height: 130,
                       width: 150,
-                      image: AssetImage("images/pic4.jfif"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Punjabi Top 50",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
                       image: AssetImage("images/TopSsongs2020.jpg"),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(6.0),
                       child: Text(
                         "Top Songs 2020",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic6.jpg"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Latin Rizing",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic7.jfif"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Latin Divas",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic8.jpg"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Friday Latin",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic9.jpg"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "New Music",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic10.jfif"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Latin Divas",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 16,
@@ -341,7 +189,7 @@ class _HomePageState extends State<HomePage> {
                     EdgeInsets.only(left: 60, right: 60, top: 16, bottom: 6),
                 child: Image(
                   fit: BoxFit.cover,
-                  image: AssetImage("images/pic11.jpg"),
+                  image: AssetImage("images/kk.jpg"),
                 ),
               ),
               Padding(
@@ -350,7 +198,7 @@ class _HomePageState extends State<HomePage> {
                   children: <Widget>[
                     Center(
                       child: Text(
-                        "Jass Manak, Kabir Singh Gill,Karan Aujla",
+                        "KK,Neeraj Sridhar,Yo Yo Honey Singh,Karan Aujla",
                         style: TextStyle(
                           fontSize: 14,
                           color: Colors.grey,
@@ -381,12 +229,32 @@ class _HomePageState extends State<HomePage> {
                     Image(
                       height: 130,
                       width: 150,
-                      image: AssetImage("images/pic18.jfif"),
+                      image: AssetImage("images/songs2021.jpg"),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(6.0),
                       child: Text(
-                        "Kabir Singh Soneya",
+                        "Hindi Song 2021",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 13,
+                          color: Colors.grey,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                Column(
+                  children: <Widget>[
+                    Image(
+                      height: 130,
+                      width: 150,
+                      image: AssetImage("images/kkUnplugged.jpg"),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(6.0),
+                      child: Text(
+                        "KK Unplugged",
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
@@ -408,26 +276,6 @@ class _HomePageState extends State<HomePage> {
                       padding: const EdgeInsets.all(6.0),
                       child: Text(
                         "Bollywood Blast",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 13,
-                          color: Colors.grey,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic16.jfif"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Hindi Song 2019",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 13,
@@ -477,26 +325,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic13.jfif"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Latin Rizing",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 13,
-                          color: Colors.grey,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
+               
                 Column(
                   children: <Widget>[
                     Image(
@@ -517,26 +346,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ],
                 ),
-                Column(
-                  children: <Widget>[
-                    Image(
-                      height: 130,
-                      width: 150,
-                      image: AssetImage("images/pic11.jpg"),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(6.0),
-                      child: Text(
-                        "Friday Latin",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 13,
-                          color: Colors.grey,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
+               
                 Column(
                   children: <Widget>[
                     Image(
@@ -649,7 +459,7 @@ class _HomePageState extends State<HomePage> {
                     Image(
                       height: 130,
                       width: 150,
-                      image: AssetImage("images/pic19.jfif"),
+                      image: AssetImage("images/22yarns.jpg"),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(6.0),
